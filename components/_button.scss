@@ -1,0 +1,91 @@
+ .button{
+    display: inline-block;
+    background-color: $first-color;
+    color: #1a1a1a;
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    font-weight: $font-semi-bold;
+    transition: .3s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $first-color-alt;
+    }
+
+    &__header{
+        display: none;
+    }
+    &--flex{
+
+        
+        display: inline-block;
+        background-color: $first-color;
+        color: #1a1a1a;
+        padding: .35rem 1.5rem;
+        border-radius: .3rem;
+        font-weight: $font-semi-bold;
+        transition: .3s;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+    
+        &:hover{
+            background-color: $first-color-alt;
+    }
+    &-1{
+               
+            display: inline-block;
+            background-color: $first-color;
+            color: #1a1a1a;
+            padding: .35rem 1.5rem;
+            border-radius: .3rem;
+            font-weight: $font-semi-bold;
+            transition: .3s;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            margin-left: 48.5%;
+            margin-top: 1rem;
+        
+            &:hover{
+                background-color: $first-color-alt;
+        }
+    
+    }
+}
+}
+
+
+
+
+
+ .button__archives{
+    display: inline-flex;
+    background-color: $first-color;
+    color: #1a1a1a;
+    padding: .75rem 1.0rem;
+    border-radius: 3rem;
+    font-weight: $font-semi-bold;
+    transition: .3s;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    align-items: center;
+
+    &:hover .arrow{
+        
+        transform: translateX(.25rem);
+      
+    }
+    &:hover{
+        background-color: $first-color-alt;
+    }
+
+   
+ }
+.arrow{
+    font-size: 1.5rem;
+    margin-left:0.4rem;
+    transition: .3s;
+    color: #1a1a1a;
+}

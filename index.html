@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>CLERK</title>
+  </head>
+  <body>
+    <!-- <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Clerk
+        <div class="nav__menu" id="nav__menu">
+       
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link"
+                ><i class="bx bxs-home"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="bx bx-help-circle"></i> About us
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link"
+                ><i class="bx bx-slider"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#archive" class="nav__link"
+                ><i class="bx bx-archive"></i> Archives
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#review" class="nav__link"
+                ><i class="bx bx-chat"></i>Reviews
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="bx bxs-send"></i> Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__btn">
+          <span class="menu__btn__burger"></span>
+        </div>
+        <a href="#" class="button button__header">Check Archive!</a>
+      </nav>
+    </header>
+<!--  -->
+      <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+     $("#nav-placeholder").load("nav.html");
+      });
+      </script>
+      <!--end of Navigation bar-->
+    
+    <!-- ===============HOME===================== --> 
+     <section class="home section" id="home"> 
+      <div class="home__container container grid">
+        <img src="./img/doctors.svg" alt="medical students">
+        <div class="home__data">
+          <h1 class="home__title">Clerk your patient <br> Faster and Easier </h1>
+          <p class="home__description">The path to accurate diagnosis begins from proper clerking. 
+            We have created a orderly and efficient clerking platform for you. Increase productivity today!
+          </p>
+          <span class="button btn-toggle"> Get started</span>
+          <!-- <a href="" class="button btn-toggle">Get started</a> -->
+        </div>
+        <div class="get-modal get-modal-btn">
+          <div class="get-modal-content">
+            <h4 class="get-modal-title">What kind of patient would <br>you like to clerk?</h4>
+            <i class='bx bx-x modal-close close-btn'></i>
+            <ul class="get-modal-services grid">
+              <li class="get-modal-service">
+                <i class="bx bx-check-circle get-modal-icon"></i>
+                <a class="get-modal-service-link" href="./med.html">Medicine</a>
+              </li>
+              <li class="get-modal-service">
+                <i class="bx bx-check-circle get-modal-icon"></i>
+                <a class="get-modal-service-link" href="">Obst & Gyn</a>
+              </li>
+              <li class="get-modal-service">
+                <i class="bx bx-check-circle get-modal-icon"></i>
+                <a class="get-modal-service-link" href="">Paediatrics</a>
+              </li>
+              <li class="get-modal-service">
+                <i class="bx bx-check-circle get-modal-icon"></i>
+                <a class="get-modal-service-link" href="">Surgery</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </section> 
+<!-- ==================================ARCHIVE======================== -->
+    <section class="archives section container" id="archives">
+      <div class="archives__container grid">
+          <div class="services__data">
+            <h2 class="section__title">Check Our Archives </h2>
+            <p class="services__description">
+            You don't need to have that first timer experience in any unit. Gain access 
+            to well structured previous clerking, from same unit. Learn from their mistakes 
+            and clerk like a pro
+            </p>
+           
+            <span class="button__archives button btn-toggl">
+              Explore 
+              <i class='bx bx-right-arrow-alt arrow'></i>
+            </span>
+            <div class="get-modal get-modal-bt">
+              <div class="get-modal-content">
+                <h4 class="get-modal-title">Retrieve previously clerked <br> patient's details</h4>
+                <i class='bx bx-x modal-close close-bt'></i>
+                <ul class="get-modal-services grid">
+                  <li class="get-modal-service">
+                    <i class="bx bx-check-circle get-modal-icon"></i>
+                    <a class="get-modal-service-link" href="">Medicine</a>
+                  </li>
+                  <li class="get-modal-service">
+                    <i class="bx bx-check-circle get-modal-icon"></i>
+                    <a class="get-modal-service-link" href="">Obst & Gyn</a>
+                  </li>
+                  <li class="get-modal-service">
+                    <i class="bx bx-check-circle get-modal-icon"></i>
+                    <a class="get-modal-service-link" href="">Paediatrics</a>
+                  </li>
+                  <li class="get-modal-service">
+                    <i class="bx bx-check-circle get-modal-icon"></i>
+                    <a class="get-modal-service-link" href="">Surgery</a>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+      
+          </div>
+         <img src="./img/archive.svg" alt="Archives">
+      </div>
+    </section>
+
+    <!-- ================ABOUT=========================== -->
+    <section class="about section container" id="about">
+      <div class="about__container grid">
+        <div class="about__data">
+          <h2 class="section__title-center">Get to know more <br> About Us</h2>
+          <p class="about__description">Clerk is the first version of our intergrated Electronic Health system.
+            We are a team of young and passionate enthusiasts who wish to harness the innovativer power of technology 
+          in order to make medical practise and training easier and more comfortable.         </p>
+        </div>
+        <img class="about__img" src="./img/aboutus.svg" alt="About us">
+      </div>
+    </section>
+<!-- ==========================SERVICES============================ -->
+    <section class="services services container">
+      <div class="services__container grid">
+        <div class="services__data">
+          <h2 class="section__title-center">
+            What services can we <br> offer you?
+          </h2>
+          <p class="services__description">
+            <ul>
+              <li><i class='bx bxs-chevrons-right services__arrow'></i>Clerk patients with ease</li>
+              <li><i class='bx bxs-chevrons-right services__arrow'></i>Always have access to your previous clerking sheets</li>
+              <li><i class='bx bxs-chevrons-right services__arrow'></i>No need to memorize the clerking order </li>
+              <li><i class='bx bxs-chevrons-right services__arrow'></i>Convert your clerkings to word document</li>
+              <li><i class='bx bxs-chevrons-right services__arrow'></i>Take notes and have access to other's notes</li>
+              <li><i class='bx bxs-chevrons-right services__arrow'></i>Clerk on the go, at anytime!</li>
+            </ul>
+          </p>
+        </div>
+        <img src="./img/services.svg" alt="services">
+      </div>
+    </section>
+    
+    <script src="./js/sandbox.js"></script>
+  </body>
+</html>

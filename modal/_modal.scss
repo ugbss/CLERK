@@ -1,0 +1,64 @@
+.get-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    z-index:1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+
+    &-content{
+       position: relative;
+       background-color: #fff;
+       border-radius: .5rem;
+       padding: 1.5rem;
+       width: 23rem;  
+     
+         
+    }
+    &-title{
+        font-size: $h3-font-size;
+        font-weight: $font-bold;
+        margin-bottom:$mb-1-5 ;
+    }
+    &-service{
+        row-gap: 1rem;
+        &-link{
+            text-decoration: none;
+            color: rgba(13, 11, 11, 0.5);
+            font-weight: $font-medium;
+   
+               
+           }
+       
+    }
+    // &-services{
+    //    display: flex;
+    // }
+    &-icon{
+        color: $first-color;
+    }
+    
+   
+}
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+} 
+
+
+.modal-close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: $first-color;
+    cursor: pointer;
+}
