@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../department/med.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+        <link rel="stylesheet" href="./style/style.css" />
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <title>Medicine</title>
+    </head>
+  
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder">  
+        </div>
+
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+        <form action="" class="contact__form">
+
+            <fieldset class="contact__inputs">
+                <legend>Doctor/Medical Student information</legend>
+
+                <div class="contact__content">
+                    <label for="" class="contact__label">
+                        Doctor/Medical Student's Name:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Name of Center:
+                        <input type="text" class="contact__input" />
+                    </label>
+                </div>
+            </fieldset>
+        
+            <fieldset>
+
+                <!-- Patient's History -->
+                <legend>Patient's History</legend>
+
+                <!-- Biodata -->
+                <fieldset>
+                    <legend>Bio-data</legend>
+    
+                    <label for="" class="contact__label">
+                        Hospital Number:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Name:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Age:
+                        <input type="number" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Sex:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Occupation:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Religion:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label"> 
+                        Address:
+                        <input type="number" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label"> 
+                        Tribe:
+                        <input type="number" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label"> 
+                        Informant:
+                        <input type="number" class="contact__input" />
+                    </label>
+                </fieldset>
+
+                <!-- Presenting complain -->
+            
+                <fieldset>
+                    <legend>Presenting complain</legend>
+
+                    <label for="" class="contact__label">
+                        <textarea
+                            name=""
+                            id=""
+                            cols="0"
+                            rows="7"
+                            class="contact__input"
+                            placeholder="NB: It should not be more than 5! Also, Remember to add the duration of each complains."
+                        >
+                        </textarea>
+                    </label>
+                </fieldset>
+
+                <!-- History of presenting Complains -->
+
+                <fieldset>
+                    <legend>History of presenting Complains</legend>
+
+                    <label for="" class="contact__label">
+                        <textarea
+                            name=""
+                            id=""
+                            cols="0"
+                            rows="7"
+                            class="contact__input"
+                            placeholder="NB: Remember the 5Cs: Complain, Course, Cause, Complication and Care given"
+                        >
+                        </textarea>
+                    </label>
+                </fieldset>
+
+                <!-- Past Medical History -->
+
+                <fieldset>
+                    <legend>Past Medical History</legend>
+
+                    <label for="" class="contact__label">
+                        History of similar illness in the past:
+                        <select class="history-class" name="history" id="">
+                            <option value="">
+                                Yes
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                    <br>
+
+                    <!-- if yes, open another tab to mention them -->
+                    <label for="" class="contact__label">
+                        History of chronic diseases:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                                Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        History of previous hospital admissions:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                                Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        History of blood transfusion or surgery:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                                Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Gynaecological history (if female):
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                                Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label> 
+                </fieldset>
+
+
+                <!-- Family History -->
+
+                <fieldset>
+                    <legend>Family History</legend>
+
+                    <label for="" class="contact__label">
+                        Position in the family:
+                        <input type="number" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Type of family:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                                Monogamous  
+                            </option>
+                            <option value="">
+                                Polygamous
+                            </option>
+                        </select>
+                    </label> 
+                </fieldset>
+
+                <!-- Social History -->
+
+                <fieldset>
+                    <legend>Social History</legend>
+
+                    <label for="" class="contact__label">
+                        Marital status:
+                        <select class="history-class" name="history" id="">
+                            <option class="options" value=""> 
+                                Single  
+                            </option>
+                            <option value="">
+                                Married
+                            </option>
+                            <option value="">
+                                Divorced
+                            </option>
+                            <option value="">
+                                Entanglement
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Number of Children:
+                        <input type="number" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Educational Level:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                                SSCE  
+                            </option>
+                            <option value="">
+                                NCE
+                            </option>
+                            <option value="">
+                                ND
+                            </option>
+                            <option value="">
+                                HND
+                            </option>
+                            <option value="">
+                                Bsc
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Cigarette smoking:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Alcohol Consumption:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label> 
+                </fieldset>
+
+                <!-- Drug History -->
+
+                <fieldset>
+                    <legend>Drug History</legend>
+
+                    <label for="" class="contact__label">
+                        Chronic Drug Use:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Drug Allergies:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Yes  
+                            </option>
+                            <option value="">
+                                No
+                            </option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <!-- Review of Systems -->
+
+                <fieldset>
+                    <legend>Review of Systems</legend>
+                        
+                    <label for="" class="contact__label">
+                        Central Nervous System:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               None 
+                            </option>
+                            <option value="">
+                                Headache
+                            </option>
+                            <option value="">
+                                Seizures
+                            </option>
+                            <option value="">
+                                Confusion
+                            </option>
+                            <option value="">
+                                LOS
+                            </option>
+                            <option value="">
+                               Blurring vision
+                            </option>
+                            <option value="">
+                               Neck pain
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Respiratory System:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               None 
+                            </option>
+                            <option value="">
+                                Cough
+                            </option>
+                            <option value="">
+                                Breathlessness
+                            </option>
+                            <option value="">
+                                Chest Pain
+                            </option>
+                            <option value="">
+                                Sneezing
+                            </option>
+                            <option value="">
+                               Running Nose
+                            </option>
+                            <option value="">
+                               Cyanosis
+                            </option>
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Cardio-Vascular System:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               None 
+                            </option>
+                            <option value="">
+                                Palpitations
+                            </option>
+                            <option value="">
+                              Breathlessness
+                            </option>
+                            <option value="">
+                                Easy Fatigubility
+                            </option>
+                            <option value="">
+                                Dizziness
+                            </option>
+                            <option value="">
+                               PND
+                            </option>
+                            <option value="">
+                               Orthopnea
+                            </option>  
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        GIT System:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               None 
+                            </option>
+                            <option value="">
+                                Diarrhoea
+                            </option>
+                            <option value="">
+                             Constipation
+                            </option>
+                            <option value="">
+                               Nausea
+                            </option>
+                            <option value="">
+                                Vomitting
+                            </option>
+                            <option value="">
+                               Abdominal pain
+                            </option>
+                            <option value="">
+                               Jaundice
+                            </option>  
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        UGS System
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               None 
+                            </option>
+                            <option value="">
+                                Frequency
+                            </option>
+                            <option value="">
+                                Urgency
+                            </option>
+                            <option value="">
+                               Dysuria
+                            </option>
+                            <option value="">
+                                Hesitancy
+                            </option>
+                            <option value="">
+                               Hematuria
+                            </option>
+                            <option value="">
+                               Reduced Urine Output
+                            </option>  
+                        </select>
+                    </label>   
+                </fieldset>
+
+                <!-- Summary -->
+
+                <fieldset>
+                    <legend>Summary</legend>
+
+                    <label for="" class="contact__label">
+                        <textarea
+                          name=""
+                          id=""
+                          cols="0"
+                          rows="7"
+                          class="contact__input"
+                          placeholder="Bio-data                                           Presenting complains with important characters                                                              Days on admissions                                                           Important positive and negative                   care given so Far                                                                Any Improvement since Admission" 
+                        >
+                        </textarea>
+                    </label>
+                </fieldset>
+
+            </fieldset>
+            <fieldset>
+
+                <!-- Patient's Physical Examination -->
+
+                <legend class="physical-exam">Patient's Physical Examination</legend>
+                <div class="physical">
+                    <h5>While you perform physical examination on the patient, <br>it is important 
+                        note the following:
+                    </h5>      
+                    <ul>
+                        <li> Seek consent</li>
+                        <li> Make sure patient is adequately exposed</li>
+                        <li>Stand at the right side of patient</li>
+                    </ul>  
+                </div>
+
+                <!-- General Examination -->
+
+                <fieldset>
+                    <legend>General Examination</legend>
+                    
+                    <label for="" class="contact__label">
+                        Is patient Conscious and Alert:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Yes
+                            </option>
+                            <option value="">
+                                No
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Observe if patient is:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Well
+                            </option>
+                            <option value="">
+                                Anxious and depressed 
+                            </option>
+                            <option value="">
+                               Acutely ill
+                            </option>
+                            <option value="">
+                              Chronically ill 
+                            </option>
+                            <option value="">
+                                Obesed or Wasted
+                            </option>
+                            <option value="">
+                                Presence of Cannula or Cathether
+                            </option>            
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Temperature:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Check Hair Colour and Texture:
+                        <input type="text" class="contact__input" />
+                    </label>
+                    <br>
+                    <label for="" class="contact__label">
+                        Check Conjunctival for Pallor:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Present
+                            </option>
+                            <option value="">
+                                Abesent
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Check Sclera for Jaundice:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                               Present
+                            </option>
+                            <option value="">
+                                Abesent
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Check Tongue for Hydratiion:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                            Well Hydrated
+                            </option>
+                            <option value="">
+                               Dehydrated
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Check For Capillary Refill:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                              Normal
+                            </option>
+                            <option value="">
+                              Delayed
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Check For DIgital Clubbing:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                            No clubbing
+                            </option>
+                            <option value="">
+                               Mild Clubbing
+                            </option>
+                            <option value="">
+                               Moderate Clubbing
+                            </option>
+                            <option value="">
+                               Gross Clubbing
+                            </option>
+                            <option value="">
+                             Osteoathropathy
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Lymphadenopathy:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                              Present
+                            </option>
+                            <option value="">
+                              Absent
+                            </option>   
+                        </select>
+                    </label>
+                    <br> 
+                    <label for="" class="contact__label">
+                        Pitting Pedal Edema:
+                        <select class="history-class" name="history" id="">
+                            <option value=""> 
+                              Present
+                            </option>
+                            <option value="">
+                              Absent
+                            </option>   
+                        </select>
+                    </label> 
+                </fieldset>
+
+                <!-- Systemic Examination -->
+
+                <fieldset>
+                    <legend>Systemic Examination</legend>
+    
+                    <fieldset>
+
+                        <!-- Cardio-Vascular System Examination -->
+
+                        <legend>Cardio-Vascular System Examination</legend>
+    
+                        <fieldset>
+                            <legend>Pulse:</legend>
+                            
+                            <label for="" class="contact__label">
+                                Rate:
+                                <input type="text" class="contact__input" />
+                            </label>
+                            <br>
+                            <label for="" class="contact__label">
+                                Rhythm:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Regular 
+                                    </option>
+                                    <option value="">
+                                      Irregular
+                                    </option> 
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Synchronicity:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Synchronous 
+                                    </option>
+                                    <option value="">
+                                      Asynchronous
+                                    </option> 
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Volume:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Small 
+                                    </option>
+                                    <option value="">
+                                     Normal
+                                    </option>
+                                    <option value="">
+                                     Large
+                                    </option> 
+                                </select>
+                            </label>
+                        </fieldset>
+                        <label for="" class="contact__label-artery">
+                            Check for thickened Arterial Wall and Locomotor brachialis:
+                            <input type="text" class="contact__input" />
+                        </label>
+                        <br>
+                        <label for="" class="contact__label">
+                            Blood Pressure:
+                            <input type="text" class="contact__input" />
+                        </label>
+                        <br>
+                        <label for="" class="contact__label">
+                            Jugular Venous Pressure:
+                            <input type="text" class="contact__input" />
+                        </label>
+                        <br>
+                        <label for="" class="contact__label">
+                            Inspection of Precordium:
+                            <select class="history-class" name="history" id="">
+                                <option value=""> 
+                                 Normal
+                                </option>
+                                <option value="">
+                                 Hyperactive
+                                </option>
+                                <option value="">
+                                 Bulging
+                                </option>   
+                            </select>
+                        </label>
+                        <br> 
+                        <label for="" class="contact__label">
+                            Location of Apex beat:
+                            <input type="text" placeholder="E.g 5th Intercostal Space, Mid-Clavicular line" class="contact__input" />
+                        </label>
+                        <br>
+                        <label for="" class="contact__label">
+                            Palpate for Heave and Thrills:
+                            <input type="text" placeholder="E.g 5th Intercostal Space, Mid-Clavicular line" class="contact__input" />
+                        </label>
+                        <br>
+                        <label for="" class="contact__label">
+                            Auscultate for Heart Sounds:
+                            <input type="text" placeholder="E.g S1, S2, S3, S4" class="contact__input" />
+                        </label>
+                    </fieldset>
+    
+                    <fieldset>
+
+                        <!-- Respiratory System Examination -->
+
+                        <legend>Respiratory System Examination</legend>
+                    
+                        <fieldset>
+                            <legend>On Inspection:</legend>
+                            
+                            <label for="" class="contact__label">
+                                Respiratory Rate:
+                                <input type="text" class="contact__input" />
+                            </label>
+                            <br>
+                            <label for="" class="contact__label">
+                                Respiratory Distress:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Present
+                                    </option>
+                                    <option value="">
+                                      Absent
+                                    </option> 
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Chest Symmetry:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Symmetric 
+                                    </option>
+                                    <option value="">
+                                      Asymmetric
+                                    </option> 
+                                </select>
+                            </label> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>On Palpation:</legend>
+                            
+                            <label for="" class="contact__label">
+                                Tracheal Position:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Central 
+                                    </option>
+                                    <option value="">
+                                     Deviated
+                                    </option>
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Chest Expansion:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Equal on all Lung zones 
+                                    </option>
+                                    <option value="">
+                                     Unequal
+                                    </option>
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Tactile Fremitus:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Normal 
+                                    </option>
+                                    <option value="">
+                                     Dull
+                                    </option>
+                                </select>
+                            </label> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>On Percussion:</legend>
+    
+                            <label for="" class="contact__label">
+                                Percussion Note:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Resonant
+                                    </option>
+                                    <option value="">
+                                     Hypersonant
+                                    </option>
+                                    <option value="">
+                                    Dull
+                                    </option>
+                                    <option value="">
+                                     Stony Dull
+                                    </option>
+                                </select>
+                            </label> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>On Auscultation:</legend>
+    
+                            <label for="" class="contact__label">
+                                Breath Sound:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Vesicular
+                                    </option>
+                                    <option value="">
+                                     Bronchial
+                                    </option>
+                                    <option value="">
+                                    Rhonchi
+                                    </option>
+                                </select>
+                            </label> 
+                        </fieldset>
+                    </fieldset>
+    
+                    <fieldset>
+
+                        <!-- Abdominal Examination -->
+
+                        <legend>Abdominal Examination</legend>
+    
+                        <fieldset>
+                            <legend>On Inspection:</legend>
+                            
+                            <label for="" class="contact__label">
+                                Shape of Abdomen:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Full
+                                    </option>
+                                    <option value="">
+                                    Scaphoid
+                                    </option>
+                                    <option value="">
+                                    Distended
+                                    </option> 
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Movement:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Moves with respiration
+                                    </option>
+                                    <option value="">
+                                      Reduced
+                                    </option>
+                                    <option value=""> 
+                                      Absent
+                                    </option> 
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Umbilicus:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Inverted
+                                    </option>
+                                    <option value="">
+                                     Everted
+                                    </option> 
+                                </select>
+                            </label> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>On Palpation:</legend>
+    
+                            <label for="" class="contact__label">
+                                Spleen:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                      Palpably Enlarged 
+                                    </option>
+                                    <option value="">
+                                      Not Palpably enlarged
+                                    </option> 
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Liver:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Enlarged 
+                                    </option>
+                                    <option value="">
+                                     Not Enlarged
+                                    </option>
+                                </select>
+                            </label>
+                            <br> 
+                            <label for="" class="contact__label">
+                                Kidney:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Ballotable 
+                                    </option>
+                                    <option value="">
+                                     not Ballotable
+                                    </option>
+                                </select>
+                            </label> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>On Percussion:</legend>
+    
+                            <label for="" class="contact__label">
+                                Percussion Note:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Resonant
+                                    </option>
+                                    <option value="">
+                                     Hypersonant
+                                    </option>
+                                    <option value="">
+                                    Dull
+                                    </option>
+                                    <option value="">
+                                     Stony Dull
+                                    </option> 
+                                </select>
+                            </label> 
+                        </fieldset>
+                        <fieldset>
+                            <legend>On Auscultation:</legend>
+    
+                            <label for="" class="contact__label">
+                                Breath Sound:
+                                <select class="history-class" name="history" id="">
+                                    <option value=""> 
+                                     Vesicular
+                                    </option>
+                                    <option value="">
+                                     Bronchial
+                                    </option>
+                                    <option value="">
+                                    Rhonchi
+                                    </option> 
+                                </select>
+                            </label> 
+                        </fieldset>
+                    </fieldset>
+                </fieldset>
+
+                <input type="button" value="Save">
+                <input type="button" value="Preview">
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+<!-- <h4>Clerk Common Symptoms:</h4>
+<div>
+  <span class="button btn-toggle"
+    >Cough and difficulty in breathing</span
+  >
+  <span class="button btn-toggle">Fever</span>
+  <span class="button btn-toggle"> Chest pain</span>
+  <span class="button btn-toggle"> Abdominal pain</span>
+  <span class="button btn-toggle"> Headache</span>
+</div>
+<div> -->
